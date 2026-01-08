@@ -21,7 +21,8 @@
             ]
           },
           {
-            "group": "Customization",
+            "group": "Connect with Appstore Connect",
+            "icon": "apple-whole",
             "pages": [
               "essentials/settings",
               "essentials/navigation"
