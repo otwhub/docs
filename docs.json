@@ -23,11 +23,16 @@
           },
           {
             "group": "Connect with Appstore Connect",
-            "icon": "apple-whole",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation",
-              "guides/connect-with-appstore-connect/generate-api-keys"
+              {
+                "group": "Appstore Connect",
+                "icon": "apple-whole",
+                "pages": [
+                  "essentials/settings",
+                  "essentials/navigation",
+                  "guides/connect-with-appstore-connect/generate-api-keys"
+                ]
+              }
             ]
           },
           {
