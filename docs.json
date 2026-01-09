@@ -26,7 +26,8 @@
             "icon": "apple-whole",
             "pages": [
               "essentials/settings",
-              "essentials/navigation"
+              "essentials/navigation",
+              "guides/connect-with-appstore-connect/generate-api-keys"
             ]
           },
           {
