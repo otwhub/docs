@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Appinion",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#FF5144",
+    "light": "#FF5144",
+    "dark": "#FF5144"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -81,9 +81,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
+      "x": "https://x.com/appinionmatters",
       "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "linkedin": "https://www.linkedin.com/company/appinionmatters"
     }
   }
 }
