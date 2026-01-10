@@ -57,14 +57,14 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/appinion_logo.svg",
+    "dark": "/images/appinion_logo.svg"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:ncunha@appinion.pt"
       }
     ],
     "primary": {
@@ -88,8 +88,10 @@
   "footer": {
     "socials": {
       "x": "https://x.com/appinionmatters",
-      "github": "https://github.com/mintlify",
       "linkedin": "https://www.linkedin.com/company/appinionmatters"
     }
+  },
+  "appearance": {
+    "strict": false
   }
 }
