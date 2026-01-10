@@ -9,7 +9,7 @@ icon: "key"
   Hit the **Invite new users** button. Paste the email you copied from the Service Account page then scroll to **Account Permissions**.
 </Card>
 
-<Card title="Account Permissions" icon="sparkles">
+<Card title="Account Permissions" icon="2">
   Uncheck all except:
 
   1. View app information and download bulk reports (read-only) – so you’re only giving the Visibility permission to Appinion. This allows us to access the data in the Reports section of your Console account, which is where we obtain the historical review data.
@@ -22,6 +22,16 @@ icon: "key"
   ![Step14 201988e9ea390f37b6ef](/images/step14.201988e9ea390f37b6ef.png)
 </Card>
 
-### /Create a Team API Key
+<Card title="Complete the connection" icon="3">
+  ### Package Id
 
-Once an API key is generated, its name and access level cannot be changed. If you need to update either, you must revoke the key and create a new one.
+  The Package Id is available on your Play Developer Console and should look like this [**com.xxx**](http://com.xxx)**.yourappname**
+
+  ### Bucket Id
+
+  Head back to your Play Developer Console and navigate to **Download reports** from the left menu. Click into **Reviews** and select your app from the right.
+
+  Click on Copy Cloud Storage URI.
+
+  ![Step15 7e20dc9efe1b5178d1f2](/images/step15.7e20dc9efe1b5178d1f2.png)
+</Card>
