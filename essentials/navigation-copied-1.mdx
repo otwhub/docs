@@ -4,14 +4,31 @@ icon: "map"
 description: "Make sure that you are with the correct profile."
 ---
 
-
-<Card title="Create a Google Cloud Project" horizontal={false}>
+<Card title="Create a Google Cloud Project" icon="1" iconType="solid">
   1. Select **Menu - IAM & Admin - Create a Project** and enter the Project Name. Then hit the **Create** button.
 
   <img
     src="/images/step4_1.ce08bcbd5eef86cced3a.png"
     alt="Step4 1 Ce08bcbd5eef86cced3a"
     title="Step4 1 Ce08bcbd5eef86cced3a"
+    className="mx-auto"
+  />
+</Card>
+
+<Card title="Search APIs" icon="2" iconType="solid">
+  
+
+  Search for the following API’s and make sure they are all **ENABLED**:
+
+  - **Google Cloud APIs **(lets us authenticate you)
+  - **Google Cloud Storage **(allows us to access historical review data)
+  - **Google Cloud Storage JSON API **(also allows us to access historical review data)
+  - **Google Play Android Developer **(allows us to access current review data)
+
+  <img
+    src="/images/step5.37af855786d7f34bdf03.png"
+    alt="Step5 37af855786d7f34bdf03"
+    title="Step5 37af855786d7f34bdf03"
     className="mx-auto"
   />
 </Card>
