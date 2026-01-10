@@ -3,27 +3,25 @@ title: "Google Play Console"
 icon: "key"
 ---
 
-### Create an Indivdual API Key
+<Card title="Granting access" icon="1" horizontal="false">
+  Back in your [Google Play Console](https://play.google.com/console/u/0/signup), select **Menu - Users and Permissions**
 
-<Card title="Create a key for Customer Support User" horizontal="false">
-  Once a **Customer Support** User has API keys enabled they will need to log into their App Store Connect account and generate a new API key.
-
-  1. On the top right of any App Store Connect page, click your user name, then click Edit Profile.
-  2. Under Individual API Key, click **Generate Key**.
-  3. Copy the Key ID, then click **Download API Key** then click Download in the dialog.
+  Hit the **Invite new users** button. Paste the email you copied from the Service Account page then scroll to **Account Permissions**.
 </Card>
 
-### Create a Team API Key
+<Card title="Account Permissions" icon="sparkles">
+  Uncheck all except:
 
-<Card title="Add a new integration" horizontal>
-  This requires **Account Holder** or **Admin** access for the App Store Connect account. 
+  1. View app information and download bulk reports (read-only) – so you’re only giving the Visibility permission to Appinion. This allows us to access the data in the Reports section of your Console account, which is where we obtain the historical review data.
+  2. Reply to reviews – so you can reply from within Appinion.
 
-  1. In your App Store Connect account, go to **Users and Access**, then open the **Integrations** tab.
-  2. You’ll land on the **App Store Connect API** page under **Team Keys**. Click the **\+** button to create a new Team API key.
-  3. Enter a name for the key. This name is for your reference only and is not part of the key itself.
-  4. Under **Access**, select **Admin**.
-  5. Team API keys apply to all apps in your account and cannot be limited to a single app. When you’re ready, click **Generate**.
-  6. Finally, copy the **Issuer ID** and **Key ID**, and download the **API key file**. You’ll need these details to complete the connection in Appinion.
+  Then press Invite User.
+
+  ![Step13 565919cd570e850335d1](/images/step13.565919cd570e850335d1.png)
+
+  ![Step14 201988e9ea390f37b6ef](/images/step14.201988e9ea390f37b6ef.png)
 </Card>
+
+### /Create a Team API Key
 
 Once an API key is generated, its name and access level cannot be changed. If you need to update either, you must revoke the key and create a new one.
