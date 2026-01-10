@@ -56,10 +56,7 @@
       }
     ]
   },
-  "logo": {
-    "light": "/images/appinion_logo.svg",
-    "dark": "/images/appinion_logo.svg"
-  },
+  "logo": "/logo/appinion_logo.svg",
   "navbar": {
     "links": [
       {
