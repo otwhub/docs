@@ -1,35 +1,15 @@
 ---
-title: "Integration"
-description: "Display inline code and code blocks"
+title: "iOS"
+description: "Initialize the SDK as soon as possible on your App life cycle."
 icon: "code"
 ---
 
-## Inline code
+### SDK initialization
 
-To denote a `word` or `phrase` as code, enclose it in backticks (\`).
-
-```
-To denote a `word` or `phrase` as code, enclose it in backticks (`).
-```
-
-## Code blocks
-
-Use [fenced code blocks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks) by enclosing code in three backticks and follow the leading ticks with the programming language of your snippet to get syntax highlighting. Optionally, you can also write the name of your code after the programming language.
-
-```.NET HelloWorld.java
+```swift Appdelegate.swift
 class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
 }
 ```
-
-````md
-```java HelloWorld.java
-class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-}
-```
-````

@@ -53,14 +53,6 @@
               "essentials/settings-copied-2",
               "essentials/code"
             ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
           }
         ]
       }
