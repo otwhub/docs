@@ -47,12 +47,11 @@
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Proactive Feedback SDK",
+            "icon": "badge-check",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "essentials/settings-copied-2",
+              "essentials/code"
             ]
           },
           {
