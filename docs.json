@@ -33,6 +33,16 @@
                   "guides/connect-with-appstore-connect/generate-api-keys",
                   "guides/connect-with-appstore-connect/generate-api-keys-copied-1"
                 ]
+              },
+              {
+                "group": "Google Play Console",
+                "icon": "robot",
+                "pages": [
+                  "essentials/settings-copied-1",
+                  "essentials/navigation-copied-1",
+                  "guides/connect-with-appstore-connect/generate-api-keys-copied-2",
+                  "guides/connect-with-appstore-connect/generate-api-keys-copied-3"
+                ]
               }
             ]
           },
