@@ -16,14 +16,12 @@ description: "Make sure that you are with the correct profile."
 </Card>
 
 <Card title="Search APIs" icon="2" iconType="solid">
-  
-
   Search for the following API’s and make sure they are all **ENABLED**:
 
-  - **Google Cloud APIs **(lets us authenticate you)
-  - **Google Cloud Storage **(allows us to access historical review data)
-  - **Google Cloud Storage JSON API **(also allows us to access historical review data)
-  - **Google Play Android Developer **(allows us to access current review data)
+  - \*\*Google Cloud APIs \*\*(lets us authenticate you)
+  - \*\*Google Cloud Storage \*\*(allows us to access historical review data)
+  - \*\*Google Cloud Storage JSON API \*\*(also allows us to access historical review data)
+  - \*\*Google Play Android Developer \*\*(allows us to access current review data)
 
   <img
     src="/images/step5.37af855786d7f34bdf03.png"
@@ -31,4 +29,33 @@ description: "Make sure that you are with the correct profile."
     title="Step5 37af855786d7f34bdf03"
     className="mx-auto"
   />
+</Card>
+
+<Card title="Create a Service Account" icon="3" iconType="solid">
+  
+
+  1. Select **Menu - IAM & Admin - Service accounts** and hit **Create Service Account**.
+
+     ![Step8 B60bc0574490373025bd](/images/step8.b60bc0574490373025bd.png)
+  2. Give the service account a name (this can be anything you want, but it’s a good idea to name it something to do with Appinion so you know what it is in future), and then click Create.
+
+     ![Step9 Ddfa1b3906af0701651d](/images/step9.ddfa1b3906af0701651d.png)
+  3. Under the Select a role dropdown, choose Basic and select Browser, then click Done.
+
+     ![Step10 A3db19cafa8f11cb2b9c](/images/step10.a3db19cafa8f11cb2b9c.png)
+  4. Click the three dots and then Manage keys.
+
+     ![Step11 B0a766454b152871dbb5](/images/step11.b0a766454b152871dbb5.png)
+
+     From Add Key select Create new key.
+
+     ![Step11 1 Afb7bd46f054d14de538](/images/step11_1.afb7bd46f054d14de538.png)
+
+     Select JSON and then Create.
+
+     ![Step11 2 6c0683d909a3cd820284](/images/step11_2.6c0683d909a3cd820284.png)
+  5. You should then get a message telling you Private key saved to your computer and the private key should begin downloading. Click Close on the dialog.
+  6. Return to the Service Account main page and copy the user email address for the service account.
+
+     ![Step12 0b78062fb39ec31cde89](/images/step12.0b78062fb39ec31cde89.png)
 </Card>
