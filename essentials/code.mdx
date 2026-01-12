@@ -1,13 +1,13 @@
 ---
 title: "iOS"
-description: "Initialize the SDK as soon as possible on your App life cycle."
 icon: "code"
 ---
 
 ### SDK initialization
 
-```swift Appdelegate.swift
+Initialize the SDK as soon as possible on your App life cycle.
 
+```swift Appdelegate.swift
 let config = Configuration(
 				clientID: "###CLIENT_ID###", 
 				clientSecret: "###CLIENT_SECRET###", 
@@ -18,6 +18,35 @@ let config = Configuration(
 let _ = AppinionSDK(with:config) { error in
 	if let error {
 	//TODO: Handle error
+	}
+}
+```
+
+### Configure a stage
+
+On the Viewcontroller you wish to call the proactive feedback prompt, first configure your stage.
+
+<Info>
+  The STAGE NAME must match the on you have created on the Appinion Dashboard.
+</Info>
+
+```swift ViewController.swift
+var config = StoreFeedbackConfiguration(stage: ###STAGE_NAME###)
+config.userData = ExtraInfo(user_id: ##OTHER INFO##) //Example
+```
+
+### Launch Proactive feedback prompt
+
+Launch the Proactive feedback prompt with the configuration for this stage.
+
+```swift ViewController.swift
+StoreFeedbackManager.shared.start(on: ###LAUNCHING_VIEWCONTROLLER###, 
+					   configuration: config) { ready in
+
+	if(ready) {
+		DispatchQueue.main.async {
+			self.rsm.askFeedback()
+		}
 	}
 }
 ```
