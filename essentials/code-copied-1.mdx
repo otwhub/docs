@@ -1,0 +1,54 @@
+---
+title: "Android"
+icon: "code"
+---
+
+### Integration
+
+Using gradle.
+
+### SDK initialization
+
+Implement the SDKManagerInterface
+
+```kotlin Appdelegate.swift
+class YourClass : Fragment(), SDKManagerInterface
+
+override fun authenticate(resp: Boolean) {
+	// This method returns true if sdk is authenticated
+}
+```
+
+Declare the SDKManager as soon as possible
+
+```kotlin
+public lateinit var sdkManager: SDKManager
+```
+
+Initialize the SDK as soon as possible on your App life cycle
+
+```kotlin
+activity?.let {
+	this.sdkManager = SDKManager(this, it)
+	this.sdkManager.authenticate(
+	appID = "###APP_ID###",
+	clientID = "###CLIENT_ID###",
+	clientSecret = "###CLIENT_SECRET###"
+}
+```
+
+### Configure a stage
+
+On the Viewcontroller you wish to call the proactive feedback prompt, first configure your stage.
+
+<Info>
+  The STAGE NAME must match the on you have created on the Appinion Dashboard.
+</Info>
+
+Launch the Proactive feedback prompt with the configuration for this stage.
+
+```kotlin
+activity?.let {
+	this.sdkManager.storeFeedbackConfiguration(###STAGE_NAME###)
+}
+```

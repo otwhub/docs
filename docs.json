@@ -51,7 +51,8 @@
             "icon": "badge-check",
             "pages": [
               "essentials/settings-copied-2",
-              "essentials/code"
+              "essentials/code",
+              "essentials/code-copied-1"
             ]
           }
         ]
