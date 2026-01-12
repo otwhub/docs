@@ -28,20 +28,20 @@
                 "group": "Appstore Connect",
                 "icon": "apple-whole",
                 "pages": [
-                  "essentials/settings",
-                  "essentials/navigation",
-                  "guides/connect-with-appstore-connect/generate-api-keys",
-                  "guides/connect-with-appstore-connect/generate-api-keys-copied-1"
+                  "guides/apple/before",
+                  "guides/apple/roles",
+                  "guides/apple/api-keys",
+                  "guides/apple/connect"
                 ]
               },
               {
                 "group": "Google Play Console",
                 "icon": "robot",
                 "pages": [
-                  "essentials/settings-copied-1",
-                  "essentials/navigation-copied-1",
-                  "guides/connect-with-appstore-connect/generate-api-keys-copied-2",
-                  "guides/connect-with-appstore-connect/generate-api-keys-copied-3"
+                  "guides/android/api-keys",
+                  "guides/android/cloud-console",
+                  "guides/android/play-console",
+                  "guides/android/connect"
                 ]
               }
             ]
@@ -50,9 +50,9 @@
             "group": "Proactive Feedback SDK",
             "icon": "badge-check",
             "pages": [
-              "essentials/settings-copied-2",
-              "essentials/code",
-              "essentials/code-copied-1"
+              "guides/proactive/before",
+              "guides/proactive/ios",
+              "guides/proactive/android"
             ]
           }
         ]
