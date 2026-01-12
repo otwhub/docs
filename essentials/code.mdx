@@ -7,9 +7,17 @@ icon: "code"
 ### SDK initialization
 
 ```swift Appdelegate.swift
-class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
+
+let config = Configuration(
+				clientID: "###CLIENT_ID###", 
+				clientSecret: "###CLIENT_SECRET###", 
+				appID: "###APP_ID###", 
+				scope: "###SCOPE###", 
+				debug: true/false)
+
+let _ = AppinionSDK(with:config) { error in
+	if let error {
+	//TODO: Handle error
+	}
 }
 ```
