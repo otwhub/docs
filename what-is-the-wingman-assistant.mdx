@@ -1,3 +1,48 @@
 ---
 title: "What is the Wingman assistant"
 ---
+
+Bring your Appinion data into Claude, ChatGPT, and other AI assistants with a secure MCP connection.
+
+<Info>
+  Feature available as a paid add on
+</Info>
+
+### What the wingman assistant can do
+
+By default, the assistant can search, analyze, and summarize your Appinion data, including your apps, ratings, reviews, sentiment, keywords, topics, and performance trends. This lets you ask questions like _"How did my app perform this week?"_ or _"Why is my rating dropping?"_ without opening Appinion, and receive answers based on your real data.
+
+### Why It Works with Multiple AI Assistants
+
+The Wingman connector is built on the Model Context Protocol (MCP), allowing any compatible AI client to connect to Appinion. This includes Claude, Claude Code, ChatGPT, Cursor, VS Code, and other MCP-enabled applications.
+
+Connecting your assistant is a standard Appinion feature and does not require any programming knowledge. Most MCP clients support both read and write operations, with your approval required for every action that modifies data. Client-specific setup instructions are available in the connection guides.
+
+### Where the Data Comes From
+
+The assistant connects to Appinion using OAuth. You sign in to your Appinion account and authorize access when requested by your AI client.
+
+Once connected, the assistant can only access the data that belongs to your Appinion workspace. It never has access to your credentials. Appinion remains the single source of truth for your data, while the assistant simply provides a natural language interface for querying, analyzing, and interacting with it.
+
+## Know more
+
+<Columns cols={2}>
+  <Column>
+    <Card title="Connect an assistant " icon="plug">
+      Step-by-step guides for connecting Claude, ChatGPT, and other MCP clients.
+    </Card>
+
+    <Card title="Troubleshooting" icon="tools">
+      What to do if your connection fails or your assistant is not responding.
+    </Card>
+  </Column>
+  <Column>
+    <Card title="Security and privacy" icon="shield">
+      Learn how OAuth protects your account, data, and credentials.
+    </Card>
+
+    <Card title="Using Wingman in Appinion" icon="robot">
+      Learn how to use the built-in AI assistant directly inside Appinion.
+    </Card>
+  </Column>
+</Columns>
