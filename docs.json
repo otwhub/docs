@@ -52,7 +52,12 @@
               "guides/proactive/android"
             ]
           },
-          "wingman"
+          {
+            "group": "Wingman assistant",
+            "pages": [
+              "what-is-the-wingman-assistant"
+            ]
+          }
         ]
       }
     ]
