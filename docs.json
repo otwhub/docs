@@ -12,7 +12,7 @@
     "tabs": [
       {
         "tab": "Guides",
-        "groups": [
+        "pages": [
           {
             "group": "Getting started",
             "pages": [
@@ -54,7 +54,8 @@
               "guides/proactive/ios",
               "guides/proactive/android"
             ]
-          }
+          },
+          "wingman"
         ]
       }
     ]
