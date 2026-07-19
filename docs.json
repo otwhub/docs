@@ -26,7 +26,6 @@
             "pages": [
               {
                 "group": "Appstore Connect",
-                "icon": "apple-whole",
                 "pages": [
                   "guides/apple/before",
                   "guides/apple/roles",
@@ -36,7 +35,6 @@
               },
               {
                 "group": "Google Play Console",
-                "icon": "robot",
                 "pages": [
                   "guides/android/api-keys",
                   "guides/android/cloud-console",
@@ -48,7 +46,6 @@
           },
           {
             "group": "Proactive Feedback SDK",
-            "icon": "badge-check",
             "pages": [
               "guides/proactive/before",
               "guides/proactive/ios",
