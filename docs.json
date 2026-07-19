@@ -55,7 +55,8 @@
           {
             "group": "Wingman assistant",
             "pages": [
-              "what-is-the-wingman-assistant"
+              "what-is-the-wingman-assistant",
+              "connect-an-assistant"
             ]
           }
         ]
